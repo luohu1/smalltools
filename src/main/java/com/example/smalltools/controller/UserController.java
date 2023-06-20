@@ -18,10 +18,8 @@ public class UserController {
 
     /**
      * 查询全部学生信息
-     *
-     * @return
      */
-    @RequestMapping("/selectAll")
+    @RequestMapping("/list")
     public List<User> selectAll() {
         return userService.list();
     }
